@@ -12,7 +12,7 @@
     "target_path": "kernel/samsung/exynos7420"
   },
   {
-    "repository": "android_hardware_samsung",
+    "repository": "TeamNexus/android_hardware_samsung",
     "target_path": "hardware/samsung"
   },
   {
