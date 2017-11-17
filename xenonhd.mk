@@ -17,7 +17,9 @@ $(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
 #$(call inherit-product, vendor/nexus/product.mk)
 
 # Device Maintainer
-PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer="BenLue"
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.xenonhd.maintainer=BenLue \
+    ro.xenonhd.donate="https://www.paypal.me/BenLue"
 
 # Root options
 ROOT_METHOD=magisk
